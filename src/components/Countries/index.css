@@ -1,0 +1,41 @@
+.appContainer {
+  background-color: #161624;
+  height: 100vh;
+  padding: 25px;
+}
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.unorderedList {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 250px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.visitedContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  overflow-y: auto;
+}
+.noVisits {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+}

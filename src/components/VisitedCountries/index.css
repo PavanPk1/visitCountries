@@ -1,0 +1,21 @@
+.visitContainer {
+  width: 250px;
+  list-style-type: none;
+  margin-right: 15px;
+}
+.thumbnail {
+  width: 100%;
+}
+.removeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff33;
+}
+
+.countryName {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  color: #1f1f2f;
+}

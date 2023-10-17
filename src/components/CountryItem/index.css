@@ -1,0 +1,31 @@
+.countryList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.countryName {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  color: #1f1f2f;
+}
+.visitedPara {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  color: #1f1f2f;
+  margin-top: 5px;
+}
+.btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #3b82f6;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 60px;
+  height: 24px;
+  cursor: pointer;
+}
